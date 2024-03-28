@@ -1,0 +1,81 @@
+/* Reset de Estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos Globais */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5; /* Cor de fundo para o corpo do site */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center; /* Centraliza os itens do menu horizontalmente */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem; /* Adiciona um espaço de preenchimento ao redor dos links */
+    border-radius: 5px; /* Borda arredondada nos links */
+    transition: background-color 0.3s ease; /* Transição suave da cor de fundo */
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Cor de fundo quando passa o mouse por cima */
+}
+
+main {
+    padding: 2rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Estilos Específicos */
+h1, h2, h3 {
+    color: #333; /* Cor do texto para os títulos */
+}
+
+a {
+    color: #007bff; /* Cor dos links */
+    transition: color 0.3s ease; /* Transição suave da cor dos links */
+}
+
+a:hover {
+    color: #16b92b; /* Cor dos links quando passa o mouse por cima */
+}
+
+button {
+    background-color: #007bff; /* Cor de fundo para os botões */
+    color: #fff; /* Cor do texto nos botões */
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transição suave da cor de fundo */
+}
+
+button:hover {
+    background-color: #0056b3; /* Cor de fundo para os botões quando passa o mouse por cima */
+}
+
